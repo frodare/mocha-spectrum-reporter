@@ -1,0 +1,23 @@
+{
+  "name": "mocha-spectrum-reporter",
+  "version": "1.0.0",
+  "description": "A colorful spec-like mocha reporter with some extra options",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mocha",
+    "reporter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frodare/mocha-spectrum-reporter.git"
+  },
+  "author": "Charles Howard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frodare/mocha-spectrum-reporter/issues"
+  },
+  "homepage": "https://github.com/frodare/mocha-spectrum-reporter#readme"
+}
