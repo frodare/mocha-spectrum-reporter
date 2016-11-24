@@ -1,6 +1,6 @@
 {
   "name": "mocha-spectrum-reporter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A colorful spec-like mocha reporter with some extra options",
   "main": "index.js",
   "scripts": {
