@@ -35,9 +35,6 @@ function generateStringColors() {
 	}
 }
 
-generateStringColors();
-generateColors();
-
 function colorizeString(s) {
 	var i = 0;
 	return s.split('').map(function (c) {
@@ -62,6 +59,9 @@ function pad(str) {
 	return '        '.substring(str.length) + str;
 }
 
+generateStringColors();
+generateColors();
+
 function Spectrum(runner) {
 	Base.call(this, runner);
 
@@ -74,16 +74,23 @@ function Spectrum(runner) {
 	}
 
 	runner.on('start', function () {
-		console.log(colorizeString('--------------------------------'));
+		console.log(colorizeString('✩✩✩✩✩✩✩✩✩✩✩✩✩✩✩✩✩✩✩✩✩✩✩✩✩✩✩✩✩✩✩✩✩✩✩✩✩✩✩✩'));
 	});
 
 	runner.on('suite', function (suite) {
 		++indents;
-		if(suite.title){
-			console.log(color('suite', '%s%s'), indent(), '☆ ' + suite.title);
-		}else{
+		if(!suite.title){
 			console.log();
+			return;
 		}
+		var s = indent();
+		if(indents === 2){
+			s += '★ ';
+		}else{
+			s += '➭ '; 
+		}
+		s += suite.title;
+		console.log(s);
 	});
 
 	runner.on('suite end', function () {
