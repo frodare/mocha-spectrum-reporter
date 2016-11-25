@@ -10,3 +10,6 @@ Install with NPM:
 Then call mocha with:
 
 `mocha --reporter mocha-spectrum-reporter test`
+
+###Screenshot
+![Screenshot](http://i.imgur.com/rL7cRR0.png)
