@@ -4,7 +4,7 @@
   "description": "A colorful spec-like mocha reporter with some extra options",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test.js"
   },
   "keywords": [
     "mocha",
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/frodare/mocha-spectrum-reporter/issues"
   },
-  "homepage": "https://github.com/frodare/mocha-spectrum-reporter#readme"
+  "homepage": "https://github.com/frodare/mocha-spectrum-reporter#readme",
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.2.0"
+  }
 }
