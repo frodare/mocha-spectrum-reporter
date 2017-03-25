@@ -1,5 +1,5 @@
 # mocha-spectrum-reporter 
-###Third Party Mocha Reporter
+### Third Party Mocha Reporter
 
 [![npm version](https://badge.fury.io/js/mocha-spectrum-reporter.svg)](https://badge.fury.io/js/mocha-spectrum-reporter)
 [![Build Status](https://travis-ci.org/frodare/mocha-spectrum-reporter.svg?branch=master)](https://travis-ci.org/frodare/mocha-spectrum-reporter)
@@ -14,5 +14,5 @@ Then call mocha with:
 
 `mocha --reporter mocha-spectrum-reporter test`
 
-###Screenshot
+### Screenshot
 ![Screenshot](http://i.imgur.com/rL7cRR0.png)
